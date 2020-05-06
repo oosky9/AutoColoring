@@ -1,5 +1,5 @@
 # Pytorchによる“ヒントを与える線画着色”
-Generative Adversarial Network(GAN)を用いて線画を自動着色します。GeneratorはResidual Blockを取り入れたUnetの構造をしており，アップサンプリングにpixel shuffleを用いています。学習はGeneratorをMAE損失によってプレトレーニングし，次にpix2pixと同様のadversarial損失とMSEによってGANの学習を行います。
+Generative Adversarial Network(GAN)を用いて線画を自動着色します。GeneratorはResidual Blockを取り入れたUnetの構造をしており，アップサンプリングにpixel shuffleを用いています。学習はGeneratorをMAE損失によってプレトレーニングし，次にpix2pixと同様のAdversarial損失とMSE損失によってGANの学習を行います。
 
 ## Requirement
 ```
