@@ -41,3 +41,7 @@ https://qiita.com/taizan/items/cf77fd37ec3a0bef5d9d
 
 [4] ヒントを与える線画着色   
 https://medium.com/@crosssceneofwindff/%E3%83%92%E3%83%B3%E3%83%88%E3%82%92%E4%B8%8E%E3%81%88%E3%82%8B%E7%B7%9A%E7%94%BB%E7%9D%80%E8%89%B2-759e1871f25b
+
+[5] カラー画像から線画を作る[OpenCV & python]  
+https://www.mathgram.xyz/entry/cv/contour
+
