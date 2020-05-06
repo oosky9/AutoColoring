@@ -14,6 +14,9 @@ tqdm
 ## Utils
 以下のコマンドで実行できますが、プレトレーニングとGANによるトレーニングの実行は別々にしているので、コマンドライン引数で指定する必要があります。
 
+**<注> データセットは何とか集めてください。**
+
+
 ### Pre-train
 > python3 main.py
 
@@ -22,7 +25,7 @@ tqdm
 
 tensorboardによって損失の推移を確認できます。
 > tensorboard --logdir = runs
->
+
 ## Result
 ![output](https://user-images.githubusercontent.com/49662875/81128718-eb065980-8f7c-11ea-8d4f-fac5e67123ba.png)
 
