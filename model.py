@@ -97,9 +97,6 @@ class Generator(nn.Module):
         out = self.dec5(torch.cat([out, x1], dim=1))
         return out
 
-class Flatten(nn.Module):
-    def forward(self, input):
-        return input.view(input.size(0), -1)
 
 class Discriminator(nn.Module):
     def __init__(self, patch_size):
